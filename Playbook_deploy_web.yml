@@ -1,0 +1,7 @@
+---
+- name: CentOS 8 | Deploy Flask Web Application on Apache
+  hosts: 127.0.0.1
+  connection: local
+  become: true
+  
+  tasks:
