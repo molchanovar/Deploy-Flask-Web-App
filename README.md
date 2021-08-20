@@ -41,4 +41,9 @@ sys.path.insert(0, "/var/www/myflask")
 from init import app as application
 ```
 
-
+#### Python env
+```
+python -m venv env
+source env/bin/activate
+pip install flask uwsgi
+```
