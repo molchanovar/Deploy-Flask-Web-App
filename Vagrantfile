@@ -16,7 +16,7 @@ Vagrant.configure(2) do |config|
             node.vm.hostname = machine[:hostname]
             node.vm.network "private_network", ip: machine[:ip]
             node.vm.provider "virtualbox" do |v|
-              v.memory = 512
+              v.memory = 1024
             end
             node.vm.provision "ansible" do |ansible|
               ansible.playbook = "Playbook_deploy_web.yml"
