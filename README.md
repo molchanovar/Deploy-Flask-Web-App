@@ -6,6 +6,7 @@ AutoDeploy Flask Web Application on Apache | Vagrant + Ansible
 3. [StartAnsibleLocally](https://gist.github.com/alces/caa3e7e5f46f9595f715f0f55eef65c1)
 4. [Ansible_CentOS8_Install](https://linuxhint.com/install_ansible_centos8/)
 5. [Flask_CentOS8_Install](https://www.itmanagement101.co.uk/how-to-install-python-wsgi-flask-apache-on-centos-8-and-get-your-first-python-web-app-up-and-running/)
+6. [Flask_web_app_tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA)
 
 ### Настройка Apache под cgi-scripts и Flask: 
 ```
