@@ -48,3 +48,12 @@ python -m venv env
 source env/bin/activate
 pip install flask uwsgi
 ```
+
+#### Flask steps install (http://localhost:5000/): 
+```
+pip install virtualenv
+virtualenv env
+.\env\Scripts\activate
+(env) pip install -r requirements.txt
+(env) python app.py
+```
